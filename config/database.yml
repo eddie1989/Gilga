@@ -3,6 +3,6 @@ default: &default
  pool: 5
  timeout: 5000
  
-production:
+development:
  <<: *default
 database: db/production.sqlite3
